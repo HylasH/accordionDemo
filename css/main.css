@@ -1,7 +1,10 @@
 ul
 {
     margin: 0;
-    padding: 0
+    padding: 0;
+
+    list-style-type: none;
+
 }
 .wrapper
 {
@@ -45,7 +48,7 @@ ul
     padding: 0;
     top: 0;
     left: 0;
-    width: 150px;
+    width: 170px;
     padding: 4px 10px;
 }
 
@@ -94,7 +97,7 @@ ul
     background: #000;
 }
 
-.wrapper .big a:hover.mask  /*hovor伪类 鼠标悬停*/
+.wrapper .big a:hover .mask  /*hovor伪类 鼠标悬停*/
 {
     opacity: 0.2;
 }
